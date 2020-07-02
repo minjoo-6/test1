@@ -1,27 +1,27 @@
 /*바탕 이미지*/
 body{
   font-family: 'Nanum Myeongjo', serif;
-	text-align: center;
+  text-align: center;
   background-size: 700px;
-	background: url("1234.jpg");
-	background-position: center top;
-	background-repeat: no-repeat;
-	color: white;	
+  background: url("1234.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: white; 
 }
 /*제목 디자인*/
 #title{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-	height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
 }
 /*유의사항*/
 h4{
-	line-height: 50px;
-	font-size: 20px;
-	opacity: 0.7;
-	margin-top: 10px;
+  line-height: 50px;
+  font-size: 20px;
+  opacity: 0.7;
+  margin-top: 10px;
 }
 /*학번*/
 p{
@@ -31,15 +31,16 @@ p{
   opacity: 0.7;
 }
 .arrow-btn {
-  position: absolute; right: auto; left: auto; bottom: 140px;
+  position: absolute; right: auto; left: auto; bottom: 450px;
   color: white;
   font-size: 3.5rem;
+  /*
   text-decoration: none;
   -webkit-transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
   padding-right: 1.7em;
 }
-.arrow-btn:before {
+/*.arrow-btn:before {
   -webkit-transform: translateX(-15px);
           transform: translateX(-15px);
   opacity: 0;

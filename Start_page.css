@@ -25,7 +25,9 @@ h4{
 }
 /*학번*/
 p{
-  position: absolute; right: auto; left: auto; bottom: 50px;
+  margin-right: 280px;
+  margin-left: auto;
+  margin-top: 300px;
 }
 .arrow-btn {
   position: absolute; right: auto; left: auto; bottom: 330px;

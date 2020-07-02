@@ -27,10 +27,11 @@ h4{
 p{
   margin-right: 280px;
   margin-left: auto;
-  bottom: 330px;
+  margin-top: 200px;
+  opacity: 0.7;
 }
 .arrow-btn {
-  position: absolute; right: auto; left: auto; bottom: 330px;
+  position: absolute; right: auto; left: auto; bottom: 340px;
   color: white;
   font-size: 3.5rem;
   text-decoration: none;
